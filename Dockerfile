@@ -1,2 +1,2 @@
-FROM httpd:2.4
+FROM index.alauda.cn/library/httpd:2.4
 COPY ./ /usr/local/apache2/htdocs/
